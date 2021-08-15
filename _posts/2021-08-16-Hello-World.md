@@ -45,7 +45,7 @@ More concretely, we can write our model as:
    ![new5.png]({{site.baseurl}}/_posts/new5.png)
 
 Thus, the output of this function represents a binary prediction for the input observation's class.
- ![new6.png]({{https://github.com/saqibulsabha/saqibulsabha.github.io/blob/master/_posts/new3.png}}/_posts/new6.png)
+ ![new6.png]({{https://github.com/saqibulsabha/saqibulsabha.github.io/blob/master/_posts/new6.png}})
 
 
 Another way to interpret this output is to view it in terms of a probabilistic prediction of the true class. In other words,  hθ(x) represents the estimated probability that yi=1 for a given input, xi.
