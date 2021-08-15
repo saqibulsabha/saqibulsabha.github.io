@@ -24,6 +24,7 @@ For Example, We have 2 classes, let’s take them like cats and dogs(1 — dog ,
  
                                                       Example
                                                       
+                                                      
 As shown in the above graph we have chosen the threshold as 0.5, if the prediction function returned a value of 0.7 then we would classify this observation as Class 1(DOG). If our prediction returned a value of 0.2 then we would classify the observation as Class 2(CAT).
 
 ## Logistic function
