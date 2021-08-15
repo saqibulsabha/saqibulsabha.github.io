@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logistic Regression
-published: false
+published: true
 ---
 
 
