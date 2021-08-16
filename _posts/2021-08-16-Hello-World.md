@@ -19,6 +19,7 @@ The goal of logistic regression, as with any classifier, is to figure out some w
 We expect our classifier to give us a set of outputs or classes based on probability when we pass the inputs through a prediction function and returns a probability score between 0 and 1.
 
 For Example, We have 2 classes, let’s take them like cats and dogs(1 — dog , 0 — cats). We basically decide with a threshold value above which we classify values into Class 1 and of the value goes below the threshold then we classify it in Class 2.
+
 ![new3.png](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091761/new3_s0elq1.png)
 
  
@@ -48,6 +49,7 @@ More concretely, we can write our model as:
    ![new5.png](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091760/new5_ifwdza.png)
 
 Thus, the output of this function represents a binary prediction for the input observation's class.
+
  ![new6.png](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091760/new6_dotafr.png)
 
 
