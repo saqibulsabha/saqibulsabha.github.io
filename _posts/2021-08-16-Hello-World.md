@@ -102,7 +102,7 @@ Now to minimize our cost function we need to run the gradient descent function o
  
  Gradient descent has an analogy in which we have to imagine ourselves at the top of a mountain valley and left stranded and blindfolded, our objective is to reach the bottom of the hill. Feeling the slope of the terrain around you is what everyone would do. Well, this action is analogous to calculating the gradient descent, and taking a step is analogous to one iteration of the update to the parameters.
  
- ## Advantages of logistic regression
+## Advantages of logistic regression
  
 Logistic regression is much easier to implement than other methods, especially in the context of machine learning: A machine learning model can be described as a mathematical depiction of a real-world process. The process of setting up a machine learning model requires training and testing the model. Training is the process of finding patterns in the input data, so that the model can map a particular input (say, an image) to some kind of output, like a label. Logistic regression is easier to train and implement as compared to other methods.
 
