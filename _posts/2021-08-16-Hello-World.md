@@ -32,6 +32,8 @@ As shown in the above graph we have chosen the threshold as 0.5, if the predicti
 Now, let's see the logistic function.
 
  ![l2.PNG](https://res.cloudinary.com/saqibulsabha/image/upload/v1629092237/log_mshmup.png)
+ 
+ 
 ![new4.png](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091760/new4_hcnk41.png)
 
  
