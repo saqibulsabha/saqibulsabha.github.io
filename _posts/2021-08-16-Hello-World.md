@@ -95,6 +95,7 @@ Since the second term will be zero when y=1and the first term will be zero when 
   
 Now the question arises, how do we reduce the cost value. Well, this can be done by using Gradient Descent. The main goal of Gradient descent is to minimize the cost value. i.e. min J(θ).
 Now to minimize our cost function we need to run the gradient descent function on each parameter i.e.
+
  ![](https://res.cloudinary.com/saqibulsabha/image/upload/v1629094472/1_e8hayp.png)
  
  ![](https://res.cloudinary.com/saqibulsabha/image/upload/v1629094473/2_zqllnq.jpg)
