@@ -89,6 +89,17 @@ More succinctly, we can write this as
 Since the second term will be zero when y=1and the first term will be zero when y=0. Substituting this cost into our overall cost function we obtain:
 
    ![l6.PNG](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091759/l6_zfx6kk.png)
+   
+   
+  ## Gradient Descent
+  
+Now the question arises, how do we reduce the cost value. Well, this can be done by using Gradient Descent. The main goal of Gradient descent is to minimize the cost value. i.e. min J(θ).
+Now to minimize our cost function we need to run the gradient descent function on each parameter i.e.
+ ![](https://res.cloudinary.com/saqibulsabha/image/upload/v1629094472/1_e8hayp.png)
+ 
+ ![](https://res.cloudinary.com/saqibulsabha/image/upload/v1629094473/2_zqllnq.jpg)
+ 
+ Gradient descent has an analogy in which we have to imagine ourselves at the top of a mountain valley and left stranded and blindfolded, our objective is to reach the bottom of the hill. Feeling the slope of the terrain around you is what everyone would do. Well, this action is analogous to calculating the gradient descent, and taking a step is analogous to one iteration of the update to the parameters.
 
   
   
