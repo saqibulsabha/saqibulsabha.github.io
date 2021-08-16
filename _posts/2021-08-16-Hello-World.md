@@ -121,6 +121,7 @@ Logistic regression is a powerful machine learning algorithm that utilizes a sig
 2.	https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148
 3.	https://kambria.io/blog/logistic-regression-for-machine-learning/
 4.	https://www.jeremyjordan.me/logistic-regression/
+5.	https://careerfoundry.com/en/blog/data-analytics/what-is-logistic-regression/
 
 
 
