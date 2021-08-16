@@ -13,16 +13,16 @@ Logistic Regression is much similar to the Linear Regression except that how the
 We can call a Logistic Regression a Linear Regression model but the Logistic Regression uses a more complex cost function, this cost function can be defined as the ‘Sigmoid function’ or also known as the ‘logistic function’ instead of a linear function.
 
 The goal of logistic regression, as with any classifier, is to figure out some way to split the data to allow for an accurate prediction of a given observation's class using the information present in the features. (For instance, if we were examining the Iris flower dataset, our classifier would figure out some method to split the data based on the following: sepal length, sepal width, petal length, petal width.) In the case of a generic two-dimensional example, the split might look something like this.
-![new1.png]({{site.baseurl}}/_posts/new1.png)
+![](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091760/new1_fxtzxy.png)
 
 ## Decision Boundary
 We expect our classifier to give us a set of outputs or classes based on probability when we pass the inputs through a prediction function and returns a probability score between 0 and 1.
 
 For Example, We have 2 classes, let’s take them like cats and dogs(1 — dog , 0 — cats). We basically decide with a threshold value above which we classify values into Class 1 and of the value goes below the threshold then we classify it in Class 2.
-![new3.png]({{site.baseurl}}/_posts/new3.png)
+![new3.png](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091761/new3_s0elq1.png)
 
  
-                                                      Example
+                                                     
                                                       
                                                       
 As shown in the above graph we have chosen the threshold as 0.5, if the prediction function returned a value of 0.7 then we would classify this observation as Class 1(DOG). If our prediction returned a value of 0.2 then we would classify the observation as Class 2(CAT).
@@ -30,8 +30,8 @@ As shown in the above graph we have chosen the threshold as 0.5, if the predicti
 ## Logistic function
 
 Now, let's see the logistic function.
- ![l2.PNG]({{site.baseurl}}/_posts/l2.PNG)
-![new4.png]({{site.baseurl}}/_posts/new4.png)
+ ![l2.PNG](https://res.cloudinary.com/saqibulsabha/image/upload/v1629092237/log_mshmup.png)
+![new4.png](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091760/new4_hcnk41.png)
 
  
 As you can see, this function is asymptotically bounded between 0 and 1. Further, for very positive inputs our output will be close to 1 and for very negative inputs our output will be close to 0. This will essentially allow us to translate the value we obtain from z into a prediction of the proper class. Inputs that are close to zero (and thus, near the decision boundary) signify that we don't have a confident prediction of 0 or 1 for the observation.
@@ -42,10 +42,10 @@ hθ(xi) < 0.5→ypred = 0
 where ypred denotes the predicted class of an observation, xi, and hθ(x) represents the functional composition, hθ(x) = g(z(x)).
 More concretely, we can write our model as:
  
-   ![new5.png]({{site.baseurl}}/_posts/new5.png)
+   ![new5.png](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091760/new5_ifwdza.png)
 
 Thus, the output of this function represents a binary prediction for the input observation's class.
- ![new6.png]({{https://github.com/saqibulsabha/saqibulsabha.github.io/blob/master/_posts/new6.png}})
+ ![new6.png](https://github.com/saqibulsabha/saqibulsabha.github.io/blob/master/_posts/new6.png)
 
 
 Another way to interpret this output is to view it in terms of a probabilistic prediction of the true class. In other words,  hθ(x) represents the estimated probability that yi=1 for a given input, xi.
