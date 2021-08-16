@@ -30,6 +30,7 @@ As shown in the above graph we have chosen the threshold as 0.5, if the predicti
 ## Logistic function
 
 Now, let's see the logistic function.
+
  ![l2.PNG](https://res.cloudinary.com/saqibulsabha/image/upload/v1629092237/log_mshmup.png)
 ![new4.png](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091760/new4_hcnk41.png)
 
@@ -45,7 +46,7 @@ More concretely, we can write our model as:
    ![new5.png](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091760/new5_ifwdza.png)
 
 Thus, the output of this function represents a binary prediction for the input observation's class.
- ![new6.png](https://github.com/saqibulsabha/saqibulsabha.github.io/blob/master/_posts/new6.png)
+ ![new6.png](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091760/new6_dotafr.png)
 
 
 Another way to interpret this output is to view it in terms of a probabilistic prediction of the true class. In other words,  hθ(x) represents the estimated probability that yi=1 for a given input, xi.
@@ -59,27 +60,33 @@ Because the class can only take on values of 0 or 1, we can also write this in t
 For example, if hθ(x)=0.85 then we can assert that there is an 85% probability that yi=1 and a 15% probability that yi=0. This is useful as we can not only predict the class of an observation, but we can quantify the certainty of such prediction. In essence, the further a point is from the decision boundary, the more certain we are about the decision.
 
 ## The cost function
+
 Next, we need to establish a cost function which can grade how well our model is performing according to the training data. This cost function, J(θ), can be considered to be a summation of individual "grades" for each classification prediction in our training set, comparing hθ(x) with the true class yi. We want the cost function to be large for incorrect classifications and small for correct ones so that we can minimize J(θ) to find the optimal parameters.
-           ![l3.PNG]({{site.baseurl}}/_posts/l3.PNG)
+
+   ![l3.PNG](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091759/l3_eob5w3.png)
         
                         
                         
 In linear regression, we used the squared error as our grading mechanism. Unfortunately for logistic regression, such a cost function produces a nonconvex space that is not ideal for optimization. There will exist many local optima on which our optimization algorithm might prematurely converge before finding the true minimum.
 
 Using the Maximum Likelihood Estimator from statistics, we can obtain the following cost function which produces a convex space friendly for optimization. This function is known as the binary cross-entropy loss.
-               ![l4.PNG]({{site.baseurl}}/_posts/l4.PNG)
+
+   ![l4.PNG](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091759/l4_tmetcu.png)
                
 
 These cost functions return high costs for incorrect predictions.
-              ![new7.png]({{site.baseurl}}/_posts/new7.png)
+
+   ![new7.png](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091760/new7_xznyol.png)
               
 
 More succinctly, we can write this as
-             ![l5.PNG]({{site.baseurl}}/_posts/l5.PNG)
+
+   ![l5.PNG](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091759/l5_pwghy9.png)
              
 
 Since the second term will be zero when y=1and the first term will be zero when y=0. Substituting this cost into our overall cost function we obtain:
-            ![l6.PNG]({{site.baseurl}}/_posts/l6.PNG)
+
+   ![l6.PNG](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091759/l6_zfx6kk.png)
 
   
   
