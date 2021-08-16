@@ -91,7 +91,7 @@ Since the second term will be zero when y=1and the first term will be zero when 
    ![l6.PNG](https://res.cloudinary.com/saqibulsabha/image/upload/v1629091759/l6_zfx6kk.png)
    
    
-  ## Gradient Descent
+## Gradient Descent
   
 Now the question arises, how do we reduce the cost value. Well, this can be done by using Gradient Descent. The main goal of Gradient descent is to minimize the cost value. i.e. min J(θ).
 Now to minimize our cost function we need to run the gradient descent function on each parameter i.e.
@@ -101,6 +101,14 @@ Now to minimize our cost function we need to run the gradient descent function o
  ![](https://res.cloudinary.com/saqibulsabha/image/upload/v1629094473/2_zqllnq.jpg)
  
  Gradient descent has an analogy in which we have to imagine ourselves at the top of a mountain valley and left stranded and blindfolded, our objective is to reach the bottom of the hill. Feeling the slope of the terrain around you is what everyone would do. Well, this action is analogous to calculating the gradient descent, and taking a step is analogous to one iteration of the update to the parameters.
+ 
+ ## Advantages of logistic regression
+ 
+Logistic regression is much easier to implement than other methods, especially in the context of machine learning: A machine learning model can be described as a mathematical depiction of a real-world process. The process of setting up a machine learning model requires training and testing the model. Training is the process of finding patterns in the input data, so that the model can map a particular input (say, an image) to some kind of output, like a label. Logistic regression is easier to train and implement as compared to other methods.
+
+Logistic regression works well for cases where the dataset is linearly separable: A dataset is said to be linearly separable if it is possible to draw a straight line that can separate the two classes of data from each other. Logistic regression is used when your Y variable can take only two values, and  if the data is linearly separable, it is more efficient to classify it into two seperate classes.
+
+Logistic regression provides useful insights: Logistic regression not only gives a measure of how relevant an independent variable is (i.e. the (coefficient size), but also tells us about the direction of the relationship (positive or negative). Two variables are said to have a positive association when an increase in the value of one variable also increases the value of the other variable. For example, the more hours you spend training, the better you become at a particular sport. However: It is important to be aware that correlation does not necessarily indicate causation! In other words, logistic regression may show you that there is a positive correlation between outdoor temperature and sales, but this doesn’t necessarily mean that sales are rising because of the temperature
 
   
   
